@@ -31,11 +31,12 @@ python-versions = "*"
 
 [[package]]
 name = "pymp4"
-version = "1.5.0"
+version = "1.3.0"
 description = "A Python parser for MP4 boxes"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = "^2.7 || >=3.3,<4.0"
+files = []
 develop = false
 
 [package.dependencies]
@@ -43,9 +44,9 @@ construct = "2.8.8"
 
 [package.source]
 type = "git"
-url = "https://github.com/truedread/pymp4"
+url = "https://github.com/rlaphoenix/pymp4.git"
 reference = "HEAD"
-resolved_reference = "e5a40516b533340c9515a2730b1d557329deb0ac"
+resolved_reference = "36c7b87a70d163b5e00dc5a7880065bd709b7e1b"
 
 [[package]]
 name = "pysrt"
