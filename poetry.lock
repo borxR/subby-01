@@ -29,7 +29,7 @@ construct = "2.8.8"
 
 [package.source]
 type = "git"
-url = "https://github.com/rlaphoenix/pymp4.git"
+url = "https://github.com/beardypig/pymp4.git"
 reference = "HEAD"
 resolved_reference = "36c7b87a70d163b5e00dc5a7880065bd709b7e1b"
 
